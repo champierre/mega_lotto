@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'mega_lotto/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "mega_lotto"
+  spec.name          = "champierre_mega_lotto"
   spec.version       = MegaLotto::VERSION
   spec.authors       = ["Junya Ishihara"]
   spec.email         = ["junya@champierre.com"]
