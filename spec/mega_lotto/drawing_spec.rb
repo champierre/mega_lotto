@@ -4,6 +4,7 @@ module MegaLotto
   describe Drawing do
     describe "#draw" do
       let(:draw) { MegaLotto::Drawing.new.draw }
+      let(:new_draw) { [22, 56, 678].draw }
 
       it "returns an array" do
         expect(draw).to be_a(Array)
