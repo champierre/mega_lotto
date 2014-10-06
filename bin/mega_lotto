@@ -1,6 +1,11 @@
 #!/usr/bin/env ruby
 
+# require_relative "../lib/mega_lotto/core_ext/array"
+# require_relative "../lib/mega_lotto/core_ext/string"
+# require_relative "../lib/mega_lotto/core_ext"
+# require_relative "../lib/mega_lotto"
 require_relative "../lib/mega_lotto/drawing"
+# require_relative "../lib/mega_lotto/configuration"
 
 drawing = MegaLotto::Drawing.new.draw
 puts drawing
